@@ -1,0 +1,51 @@
+body{
+    background-color: deeppink;
+    transition: background-color .6s;
+}
+
+.player{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+.track-art{
+    margin: 30px;
+    height: 350px;
+    width: 350px;
+    background-image: url('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bXVzaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    background-position: center;
+    border-radius: 205%;
+}
+
+.now-playing{
+    font-size: x-large;
+    font-family: 'Silkscreen', cursive;
+}
+
+.track-name{
+    font-size: larger;
+    font-family: 'PT Serif', serif;
+    font-family: 'Silkscreen', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+.track-artist{
+   font-size: larger;
+   font-family: 'PT Serif', serif;
+   font-family: 'Silkscreen', cursive;
+   font-family: 'Ubuntu', sans-serif;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
